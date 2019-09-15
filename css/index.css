@@ -2,3 +2,7 @@
 	max-width: 100%;
 	width: 100%;
 }
+body {
+	background-color: #444;
+	color: #f3f3f3; 
+}
