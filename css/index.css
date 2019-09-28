@@ -6,3 +6,32 @@ body {
 	background-color: #444;
 	color: #f3f3f3; 
 }
+
+/* header style */
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	height: 100px;
+}
+.logo img {
+	height: 100%;
+}
+/*#slider {
+	height: 400px;
+	overflow: hidden;
+}*/
+.block-social {
+	border: 1px solid #ccc;
+}
+.block-playlist {
+	border: 1px solid #ccc;
+}
+header {
+	padding: 15px 0;
+}
+.block-playlist img {
+	width: 100%;
+}
