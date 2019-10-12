@@ -2,9 +2,14 @@
 	max-width: 100%;
 	width: 100%;
 }
+header {
+	margin:  15px 0;
+}
 body {
-	background-color: #444;
-	color: #f3f3f3; 
+	background-color: #53292a;
+	color: #faf5f2; 
+	/*background-image: url('../images/background/nikpro.jpg')*/
+	font-family: 'Indie Flower', cursive;
 }
 
 /* header style */
@@ -23,15 +28,35 @@ body {
 	height: 400px;
 	overflow: hidden;
 }*/
+.block-thumbnail {
+	display:block; 
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	background-color:  #000;
+	color: #faf5f2; 	
+}
 .block-social {
 	border: 1px solid #ccc;
+    /*background-color:  #ff5c5b;*/
+	color: #faf5f2;
 }
 .block-playlist {
-	border: 1px solid #ccc;
-}
-header {
-	padding: 15px 0;
 }
 .block-playlist img {
 	width: 100%;
+}
+.block-playlist h3 {
+
+}
+.block-playlist p {
+
+}
+
+.block-thumbnail:hover {
+	box-shadow: 0 0 8px 0 #ff5c5b;
+	text-decoration: none;
+}
+.block-playlist:hover h3 {
+	text-decoration: none;	
 }
