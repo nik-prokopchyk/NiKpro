@@ -36,8 +36,11 @@ body {
 	background-color:  #000;
 	color: #faf5f2; 	
 }
+.block-thumbnail img {
+	width: 100%;
+}
 .block-social {
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
     /*background-color:  #ff5c5b;*/
 	color: #faf5f2;
 }
