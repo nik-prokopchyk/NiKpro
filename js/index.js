@@ -19,3 +19,6 @@ function normalizeSlideHeights() {
 $(window).on(
     'load resize orientationchange', 
     normalizeSlideHeights);
+function buy() {
+	alert('Здесь покупка');
+}
