@@ -44,22 +44,27 @@ body {
     /*background-color:  #ff5c5b;*/
 	color: #faf5f2;
 }
-.block-playlist {
-}
-.block-playlist img {
-	width: 100%;
-}
-.block-playlist h3 {
-
-}
-.block-playlist p {
-
-}
-
 .block-thumbnail:hover {
 	box-shadow: 0 0 8px 0 #ff5c5b;
 	text-decoration: none;
 }
 .block-playlist:hover h3 {
 	text-decoration: none;	
+}
+.block-beat {
+	margin-bottom: 20px; 
+}
+.block-beat video {
+	display: block;
+	min-width: 50%;
+	max-width: 100%;
+	margin: 0 auto;  
+}
+.block-beat audio {
+	width: 100%;
+	margin-top: 10px; 
+}
+.block-beat p {
+	text-align: left;
+	margin-bottom: 0; 
 }

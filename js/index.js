@@ -22,3 +22,32 @@ $(window).on(
 function buy() {
 	alert('Здесь покупка');
 }
+
+// beats
+jQuery.createEventCapturing(['play']);  
+jQuery('body').on('play', 'audio', function(){
+	$('.block-beat video').get(0).play()
+	console.log('play')
+});
+jQuery('body').on('pause', 'audio', function(){
+	$('.block-beat video').get(0).pause()
+	console.log('stop')
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// method
